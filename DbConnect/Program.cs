@@ -40,7 +40,7 @@ namespace DbConnect
         }
         static void Main(string[] args)
         {
-            string cs = @"server=localhost;userid=koli;password=koli1234;database=testdb";
+            string cs = @"server=localhost;userid=varsha;password=var1234;database=testdb";
 
             using var dbConnection = new MySqlConnection(cs);
             dbConnection.Open(); //open connection to  a database
